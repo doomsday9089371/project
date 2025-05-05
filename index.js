@@ -12,30 +12,22 @@ function moveToClasses() {
 function rollDice() {
 }
 
-function test() {
-    submitClass();
-    var testVar = "";
-    function myFunction() {
-        testVar = document,getElementById("testbutton").value;
-    }
-
-    function fillValue() {
-        document.getElementById("testInput").value = testVar;
-    }
-}
-
-//submiting class
-function submitClass() {
-    window.location.href="testpage.html";
-}
-
 //move to select barbarian class
 function moveToBarbarian() {
     window.location.href="barbarian.html";
     console.log("Function: moveToBarbarian() Status: Working");
 }
 
-//move to select barbarian sub-class
+function returnToBarbarian() {
+    window.location.href="barbarian.html";
+}
+
+//move to barbarian sub classes page
+function moveToBarbarianSubClasses() {
+    window.location.href="testpage.html";
+}
+
+//move to select barbarian sub-class 1
 function moveToPathOfTheZealot() {
 }
 

@@ -1,3 +1,9 @@
-.barbarian-info {
-    color:red;
+.barbarian {
+    display: inline-block;
+    height: 200px;
+}
+
+.bard {
+    display: inline-block;
+    height: 200px;
 }
