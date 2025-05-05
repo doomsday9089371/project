@@ -1,9 +1,13 @@
 .barbarian {
-    display: inline-block;
+    background-image: url(barbarian.png);
+    background-size: 200px 230px;
     height: 200px;
+    width: 200px;
 }
 
 .bard {
-    display: inline-block;
-    height: 200px;
+    background-image: url(bard.jpg);
+    background-size: 200px 230px;
+    height:200px;
+    width: 200px;
 }
